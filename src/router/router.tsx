@@ -15,8 +15,27 @@ import test13 from "../pages/test13";
 import test14 from "../pages/test14";
 import test15 from "../pages/test15";
 import test16 from "../pages/test16";
+import test17 from "../pages/test17";
+import test18 from "../pages/test18";
+import test19 from "../pages/test19";
 
 const routers = [
+  
+  {
+    path: "/test19",
+    name: "test19",
+    components: test19, // 引入pages文件下的页面
+  },
+  {
+    path: "/test18",
+    name: "test18",
+    components: test18, // 引入pages文件下的页面
+  },
+  {
+    path: "/test17",
+    name: "test17",
+    components: test17, // 引入pages文件下的页面
+  },
   {
     path: "/test1",
     name: "test1",
